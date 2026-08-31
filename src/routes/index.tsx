@@ -30,7 +30,7 @@ function Index() {
           </p>
         </div>
         <Button asChild size="lg" className="gap-2">
-          <a href={mtgCardsPdf.url} download={mtgCardsPdf.original_filename}>
+          <a href={deckPdf.url} download={deckPdf.original_filename}>
             <FileDown className="h-5 w-5" />
             Download PDF
           </a>
