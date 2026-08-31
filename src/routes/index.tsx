@@ -1,15 +1,15 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { FileDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import mtgCardsPdf from "@/assets/mtg_caards.pdf.asset.json";
+import deckPdf from "@/assets/deck_1.pdf.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Download MTG Cards PDF" },
-      { name: "description", content: "Download the MTG cards PDF." },
-      { property: "og:title", content: "Download MTG Cards PDF" },
-      { property: "og:description", content: "Download the MTG cards PDF." },
+      { name: "description", content: "Download the deck PDF." },
+      { property: "og:title", content: "Download Deck PDF" },
+      { property: "og:description", content: "Download the deck PDF." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
     ],
