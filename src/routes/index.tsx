@@ -6,7 +6,7 @@ import deckPdf from "@/assets/deck_1.pdf.asset.json";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Download MTG Cards PDF" },
+      { title: "Download Deck PDF" },
       { name: "description", content: "Download the deck PDF." },
       { property: "og:title", content: "Download Deck PDF" },
       { property: "og:description", content: "Download the deck PDF." },
@@ -23,7 +23,7 @@ function Index() {
       <div className="max-w-md space-y-6">
         <div className="space-y-2">
           <h1 className="text-3xl font-bold tracking-tight text-foreground">
-            MTG Cards PDF
+            Deck PDF
           </h1>
           <p className="text-muted-foreground">
             Click the button below to download your PDF.
