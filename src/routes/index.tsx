@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { FileDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import deckPdf from "@/assets/deck_1.pdf.asset.json";
+import deckPdf from "@/assets/deck_2.pdf.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
